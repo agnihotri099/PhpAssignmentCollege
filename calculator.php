@@ -56,7 +56,7 @@ elseif(isset($_GET['n7']))
     echo "<br>";
     echo "<a href =\"calculator.php\" > <input type = \"button\" value = \"back\" /></a>";
 }
-elseif(isset($_GET['n5']))
+elseif(isset($_GET['n8']))
 {
     $var1 = $_GET['n1'];
     $var3 = $_GET['n2'];
@@ -76,8 +76,8 @@ else
     echo "<input type =\"submit\" name=\"n3\"value =\"factorial\" />";
     echo "<input type =\"submit\" name=\"n4\"value =\"square\" />";
     echo "<input type =\"submit\" name=\"n5\"value =\"+\" />";
-    echo "<input type =\"submit\" name=\"n6\"value =\"-\" />";
-    echo "<input type =\"submit\" name=\"n7\"value =\"*\" />";
+    echo "<input type =\"submit\" name=\"n6\"value =\"*\" />";
+    echo "<input type =\"submit\" name=\"n7\"value =\"-\" />";
     echo "<input type =\"submit\" name=\"n8\"value =\"/\" />";
     echo "</form>";
 }
