@@ -1,3 +1,4 @@
+//Download bootstrap's CSS and JS 
 <?php
 require_once('config.php');
 ?>
